@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script>window.ANNOUNCEMENTS_DATA = {"title":"Caldwell 12th Ward","weekOf":"2026-10-18","comeFollowMe":[{"date":"10/12/2026–10/18/2026","reading":"Isaiah 58–66"},{"date":"10/19/2026–10/25/2026","reading":"Jeremiah 1–3; 7; 16–18; 20"},{"date":"10/26/2026–11/01/2026","reading":"Jeremiah 31–33; 36–39; Lamentations 1; 3"},{"date":"11/02/2026–11/08/2026","reading":"Ezekiel 1–3; 33–34; 36–37; 47"}],"organizations":[{"name":"Relief Society Announcements","color":"#e4d7f5","items":[{"date":"","start":"","end":"","text":"Tithing Declaration","links":[{"label":"Tithing Declaration","url":"https://form.jotform.com/262410076862152"}]}]},{"name":"Elders Quorum Announcements","color":"#d9eaf7","items":[{"date":"","start":"","end":"","text":"Tithing Declaration","links":[{"label":"Tithing Declaration","url":"https://form.jotform.com/262410076862152"}]}]},{"name":"Stake and Ward Activities","color":"#93c47d","items":[{"date":"10/18/2026","start":"3:45 PM","end":"4:30 PM","text":"C12 ward choir  - Caldwell 12th Ward - Ward Activities — C12 ward choir","links":[]},{"date":"10/18/2026","start":"7:00 PM","end":"8:00 PM","text":"Ustick Stake Center Dedication - Caldwell Idaho Lake Lowell Stake - Lake Lowell Stake Activities — Meeting to officially dedicate the building.\n\nPlease car pool as much as possible, as parking is limited.\n\nThe event will also be broadcast at https://broadcasts.churchofjesuschrist.org\n\nEvent Code: 102018","links":[{"label":"https://broadcasts.churchofjesuschrist.org","url":"https://broadcasts.churchofjesuschrist.org"}]},{"date":"10/21/2026","start":"7:00 PM","end":"9:00 PM","text":"C12 YM YW Weekley Activity - Caldwell 12th Ward - Youth Activity — C12 YM YW Weekley Activity","links":[]},{"date":"10/25/2026","start":"3:00 PM","end":"4:30 PM","text":"Recommend Renewal Interviews / Ecclesiastical Endorsements - Caldwell Idaho Lake Lowell Stake - Lake Lowell Stake Activities — Please sign up at the following link: https://lakelowellstake.setmore.com\n\nInterviews are held at the Ustick Stake Center (2708 E Ustick Rd, Caldwell, ID 83607)\n\nThis is for Temple Recommend Renewal Interviews / Ecclesiastical Endorsements ONLY.\n\nIf you need an appointment with the Stake Presidency for a 1st time Temple Recommend (Living Ordinance), Missionary, or personal need please contact the Stake Executive Secretary Matt Jex at 720-940-7209","links":[{"label":"https://lakelowellstake.setmore.com","url":"https://lakelowellstake.setmore.com"}]},{"date":"10/28/2026","start":"7:00 PM","end":"9:00 PM","text":"C12 YM YW Weekley Activity - Caldwell 12th Ward - Youth Activity — C12 YM YW Weekley Activity","links":[]},{"date":"10/31/2026","start":"1:00 PM","end":"3:00 PM","text":"C12 Trunk or Treat - Caldwell 12th Ward - Ward Activities — C12 Trunk or Treat","links":[]},{"date":"11/04/2026","start":"7:00 PM","end":"9:00 PM","text":"C12 YM YW Weekley Activity - Caldwell 12th Ward - Youth Activity — C12 YM YW Weekley Activity","links":[]}]}],"assignments":[{"date":"11/07/2026","text":"Building Clean up for the Month of November","links":[]}]};</script>
+<base target="_top">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<script>
+  
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('announcements-theme'); } catch (e) {}
+    if (saved === 'light' || saved === 'dark') document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source&#43;Serif&#43;4:opsz,wght@8..60,500;8..60,600&amp;family=Source&#43;Sans&#43;3:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f3f4f5;
+    --surface: #ffffff;
+    --ink: #1f2a33;
+    --muted: #5d6870;
+    --line: #e1e4e7;
+    --accent: #1b5f8a;
+    --accent-soft: #e7f0f6;
+    --tile: #eef2f5;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+   
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121518;
+      --surface: #1b1f23;
+      --ink: #e9ecef;
+      --muted: #a2abb3;
+      --line: #2b3137;
+      --accent: #7cbde3;
+      --accent-soft: #1a3140;
+      --tile: #232a30;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121518;
+    --surface: #1b1f23;
+    --ink: #e9ecef;
+    --muted: #a2abb3;
+    --line: #2b3137;
+    --accent: #7cbde3;
+    --accent-soft: #1a3140;
+    --tile: #232a30;
+  }
+  :root { color-scheme: light; }
+  :root[data-theme="dark"] { color-scheme: dark; }
+
+   
+  .top .wrap { display: flex; align-items: flex-start; gap: 12px; }
+  .top-text { flex: 1; min-width: 0; }
+  .theme-btn {
+    flex: none; width: 44px; height: 44px; margin-top: 2px;
+    display: grid; place-items: center;
+    background: var(--tile); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 50%;
+    cursor: pointer; -webkit-tap-highlight-color: transparent;
+  }
+  .theme-btn svg { width: 22px; height: 22px; }
+  .theme-btn .sun { display: none; }
+  .is-dark .theme-btn .sun { display: block; }
+  .is-dark .theme-btn .moon { display: none; }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.45;
+    -webkit-text-size-adjust: 100%;
+  }
+  a { color: var(--accent); }
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+
+   
+  .top {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    padding: calc(22px + env(safe-area-inset-top, 0px)) 0 22px;
+  }
+  .ward { margin: 0 0 4px; font-size: 21px; color: var(--muted); font-weight: 600; }
+  h1 {
+    margin: 0;
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(28px, 7.5vw, 36px);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+  }
+  .updated { margin: 8px 0 0; font-size: 14px; color: var(--muted); }
+
+  main { padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px)); }
+  section { margin-top: 30px; }
+  .sec-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 12px; margin-bottom: 10px;
+  }
+  h2 { margin: 0; font-family: var(--serif); font-weight: 600; font-size: 23px; }
+  .text-btn {
+    background: none; border: 0; padding: 8px 0; cursor: pointer;
+    font: 600 15px var(--sans); color: var(--accent);
+  }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+   
+  .cfm-row {
+    display: grid; grid-template-columns: 7.2em 1fr; gap: 14px;
+    padding: 14px 16px; border-top: 1px solid var(--line);
+  }
+  .cfm-row:first-child { border-top: 0; }
+  .cfm-row.current { background: var(--accent-soft); }
+  .cfm-date { font-weight: 600; font-size: 15px; color: var(--muted); }
+  .cfm-row.current .cfm-date { color: var(--accent); }
+  .cfm-reading { font-family: var(--serif); font-size: 18px; line-height: 1.35; }
+
+   
+  details.org {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  details.org > summary {
+    list-style: none;
+    display: flex; align-items: center; gap: 12px;
+    min-height: 60px; padding: 14px 16px 14px 14px;
+    border-left: 6px solid var(--org, var(--accent));
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  details.org > summary::-webkit-details-marker { display: none; }
+  .org-name { flex: 1; font-weight: 600; font-size: 18px; line-height: 1.25; }
+  .count {
+    flex: none; font-size: 14px; font-weight: 600; color: var(--muted);
+    background: var(--tile); border-radius: 999px; padding: 3px 10px;
+  }
+  .chev { flex: none; width: 20px; height: 20px; color: var(--muted); transition: transform .2s ease; }
+  details[open] > summary .chev { transform: rotate(180deg); }
+  details.org .list { border-top: 1px solid var(--line); border-left: 6px solid var(--org, var(--accent)); }
+
+   
+  .item { display: flex; gap: 14px; padding: 14px 16px; border-top: 1px solid var(--line); }
+  .item:first-child { border-top: 0; }
+  .tile {
+    flex: none; width: 54px; align-self: flex-start;
+    text-align: center; background: var(--tile); border-radius: 8px; padding: 6px 0 7px;
+  }
+  .tile .m { display: block; font-size: 13px; font-weight: 600; color: var(--accent); }
+  .tile .d { display: block; font-family: var(--serif); font-weight: 600; font-size: 24px; line-height: 1.05; }
+  .tile .w { display: block; font-size: 12px; color: var(--muted); }
+  .body { flex: 1; min-width: 0; }
+  .meta { font-size: 15px; font-weight: 600; color: var(--muted); margin-bottom: 2px; }
+  .soon {
+    display: inline-block; margin-left: 6px; padding: 0 8px; border-radius: 999px;
+    font-size: 13px; font-weight: 600; color: var(--accent); background: var(--accent-soft);
+  }
+  .text { white-space: pre-line; overflow-wrap: anywhere; }
+  .extra-links { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .extra-links a {
+    font-size: 15px; font-weight: 600; text-decoration: none;
+    border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px;
+  }
+
+   
+  .empty, .error { padding: 18px 16px; color: var(--muted); }
+  .error { color: var(--ink); }
+  .skel { height: 60px; border-radius: 12px; margin-bottom: 10px; background: var(--surface); border: 1px solid var(--line); }
+  @media (prefers-reduced-motion: no-preference) {
+    .skel { animation: pulse 1.2s ease-in-out infinite alternate; }
+    @keyframes pulse { to { opacity: .45; } }
+  }
+  @media (prefers-reduced-motion: reduce) { .chev { transition: none; } }
+</style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="top-text">
+        <p class="ward" id="ward">Ward Announcements</p>
+        <h1 id="week">Loading…</h1>
+      </div>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Switch to dark theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="wrap" id="app">
+    <section aria-hidden="true">
+      <div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div>
+    </section>
+  </main>
+
+<script>
+  const CHEVRON = '<svg class="chev" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const DAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  function today0() { const d = new Date(); d.setHours(0, 0, 0, 0); return d; }
+
+  function parseDate(s) {
+    if (!s) return null;
+    s = String(s);
+    let m = s.match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
+    if (m) { let y = +m[3]; if (y < 100) y += 2000; return new Date(y, m[1] - 1, +m[2]); }
+    m = s.match(/(\d{4})-(\d{2})-(\d{2})/);
+    if (m) return new Date(+m[1], m[2] - 1, +m[3]);
+    const d = new Date(s);
+    if (isNaN(d)) return null;
+    if (d.getFullYear() < 2010) d.setFullYear(new Date().getFullYear()); 
+    d.setHours(0, 0, 0, 0);
+    return d;
+  }
+
+  const daysFromToday = d => Math.round((d - today0()) / 86400000);
+
+  function soonBadge(d) {
+    if (!d) return '';
+    const n = daysFromToday(d);
+    if (n === 0) return '<span class="soon">Today</span>';
+    if (n === 1) return '<span class="soon">Tomorrow</span>';
+    if (n > 1 && n < 7) return '<span class="soon">This week</span>';
+    return '';
+  }
+
+  function tile(d) {
+    if (!d) return '';
+    return `<div class="tile" aria-hidden="true"><span class="m">${MONTHS[d.getMonth()]}</span><span class="d">${d.getDate()}</span><span class="w">${DAYS[d.getDay()]}</span></div>`;
+  }
+
+  
+  
+  
+  const URL_RE = /(https?:\/\/[^\s]+)/g;
+  const PHONE_RE = /\(\d{3}\)\s?\d{3}[\s.-]\d{4}\b|\b\d{3}[.-]\d{3}[.-]\d{4}\b/g;
+  const stripTrail = u => u.replace(/[.,;:!?)\]]+$/, '');
+  const shortUrl = u => {
+    const s = u.replace(/^https?:\/\//, '').replace(/\/$/, '');
+    return s.length > 38 ? s.slice(0, 36) + '…' : s;
+  };
+
+  function linkifyPlain(text) {
+    return text.split(URL_RE).map((part, i) => {
+      if (i % 2) {
+        const url = stripTrail(part);
+        const trail = part.slice(url.length);
+        return `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(shortUrl(url))}</a>${esc(trail)}`;
+      }
+      return esc(part).replace(PHONE_RE, p => `<a href="tel:${p.replace(/\D/g, '')}">${p}</a>`);
+    }).join('');
+  }
+
+  function richText(text, links) {
+    text = String(text).replace(/\n\s*[-–]\s*\n/g, ' – ');
+    let html = linkifyPlain(text);
+
+    const urlsInText = new Set((text.match(URL_RE) || []).map(u => stripTrail(u).replace(/\/$/, '')));
+    const extra = [];
+
+    (links || []).forEach(l => {
+      const url = String(l.url || '');
+      if (!url || urlsInText.has(url.replace(/\/$/, ''))) return; // already linked inline
+
+      // Only link a label in place when it's a short phrase like
+      // "Tithing Declaration" — never a whole paragraph.
+      const label = String(l.label || '').trim();
+      const isShortLabel = label && label.length <= 60 && !label.includes('\n');
+      const escLabel = esc(label);
+      if (isShortLabel && html.includes(escLabel)) {
+        html = html.replace(escLabel, `<a href="${esc(url)}" target="_blank" rel="noopener">${escLabel}</a>`);
+      } else {
+        extra.push(url);
+      }
+    });
+
+    const extraHtml = extra.length
+      ? `<div class="extra-links">${extra.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">Open ${esc(shortUrl(u))}</a>`).join('')}</div>`
+      : '';
+    return `<div class="text">${html}</div>${extraHtml}`;
+  }
+
+  function itemRow(item) {
+    const d = parseDate(item.date);
+    const time = item.start && item.end ? `${item.start} – ${item.end}` : (item.start || item.end || '');
+    const dateLabel = d
+      ? `${DAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}`
+      : (item.date || '');
+    const metaParts = [dateLabel, time].filter(Boolean).join(', ');
+    return `<div class="item">${tile(d)}<div class="body">
+      ${metaParts || soonBadge(d) ? `<div class="meta">${esc(metaParts)}${soonBadge(d)}</div>` : ''}
+      ${item.text ? richText(item.text, item.links) : ''}
+    </div></div>`;
+  }
+
+  function cfmRange(label) {
+    const parts = String(label).split(/\s*[–-]\s*(?=\d)/);
+    const a = parseDate(parts[0]), b = parseDate(parts[1]);
+    if (!a) return { text: label, current: false };
+    let text = `${MONTHS[a.getMonth()]} ${a.getDate()}`;
+    if (b) text += ` – ${b.getMonth() === a.getMonth() ? '' : MONTHS[b.getMonth()] + ' '}${b.getDate()}`;
+    const t = today0();
+    const current = b ? (a <= t && t <= b) : daysFromToday(a) === 0;
+    return { text, current };
+  }
+
+  function render(data) {
+    document.getElementById('ward').textContent = data.title || 'Ward Announcements';
+    document.getElementById('week').textContent =
+      new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+
+    let html = '';
+
+    // Come, Follow Me
+    if (data.comeFollowMe && data.comeFollowMe.length) {
+      html += `<section aria-labelledby="h-cfm"><div class="sec-head"><h2 id="h-cfm">Come, Follow Me</h2></div><div class="panel">`;
+      data.comeFollowMe.forEach(l => {
+        const r = cfmRange(l.date);
+        html += `<div class="cfm-row${r.current ? ' current' : ''}">
+          <div class="cfm-date">${esc(r.text)}${r.current ? '<br>This week' : ''}</div>
+          <div class="cfm-reading">${esc(l.reading)}</div></div>`;
+      });
+      html += `</div></section>`;
+    }
+
+    // Organizations
+    const orgs = data.organizations || [];
+    html += `<section aria-labelledby="h-ann"><div class="sec-head"><h2 id="h-ann">Announcements</h2>
+      ${orgs.length > 1 ? '<button class="text-btn" id="toggleAll" type="button">Expand all</button>' : ''}</div>`;
+    if (!orgs.length) {
+      html += `<div class="panel"><div class="empty">No announcements this week.</div></div>`;
+    }
+    orgs.forEach(org => {
+      const n = org.items.length;
+      const color = /^#[0-9a-f]{6}$/i.test(org.color) && org.color.toLowerCase() !== '#ffffff' ? org.color : '';
+      html += `<details class="org"${color ? ` style="--org:${color}"` : ''}${orgs.length === 1 ? ' open' : ''}>
+        <summary><span class="org-name">${esc(org.name)}</span>
+          <span class="count" aria-label="${n} announcement${n === 1 ? '' : 's'}">${n}</span>${CHEVRON}</summary>
+        <div class="list">${org.items.map(itemRow).join('')}</div>
+      </details>`;
+    });
+    html += `</section>`;
+
+    // Assignments
+    if (data.assignments && data.assignments.length) {
+      html += `<section aria-labelledby="h-asg"><div class="sec-head"><h2 id="h-asg">Assignments</h2></div>
+        <div class="panel">${data.assignments.map(itemRow).join('')}</div></section>`;
+    }
+
+    document.getElementById('app').innerHTML = html;
+
+    const btn = document.getElementById('toggleAll');
+    if (btn) {
+      const all = () => Array.from(document.querySelectorAll('details.org'));
+      const sync = () => { btn.textContent = all().every(d => d.open) ? 'Collapse all' : 'Expand all'; };
+      btn.addEventListener('click', () => {
+        const open = !all().every(d => d.open);
+        all().forEach(d => { d.open = open; });
+        sync();
+      });
+      all().forEach(d => d.addEventListener('toggle', sync));
+    }
+  }
+
+  function showError(err) {
+    document.getElementById('week').textContent = 'This week';
+    document.getElementById('app').innerHTML =
+      `<section><div class="panel"><div class="error">The announcements couldn't be loaded. Pull down to refresh, or try again in a minute.<br><small>${esc(err && err.message ? err.message : err)}</small></div></div></section>`;
+  }
+
+  // ── Sample data so the page can be previewed outside Apps Script ──────
+  function sampleData() {
+    const t = today0();
+    const off = n => { const d = new Date(t); d.setDate(d.getDate() + n); return `${d.getMonth() + 1}/${d.getDate()}/${d.getFullYear()}`; };
+    const sun = (7 - t.getDay()) % 7;
+    const cfm = [0, 1, 2, 3].map(i => `${off(sun - 6 + i * 7)}–${off(sun + i * 7)}`);
+    return {
+      title: 'Riverside Ward',
+      weekOf: off(sun).replace(/(\d+)\/(\d+)\/(\d+)/, (m, a, b, c) => `${c}-${String(a).padStart(2, '0')}-${String(b).padStart(2, '0')}`),
+      updated: new Date().toISOString(),
+      comeFollowMe: [
+        { date: cfm[0], reading: 'Ether 1–5' },
+        { date: cfm[1], reading: 'Ether 6–11' },
+        { date: cfm[2], reading: 'Ether 12–15' },
+        { date: cfm[3], reading: 'Moroni 1–6' }
+      ],
+      organizations: [
+        { name: 'Relief Society', color: '#e4d7f5', items: [
+          { date: off(2), start: '7:00 PM', end: '8:30 PM', text: 'Fall craft night in the Relief Society room. Bring a friend!', links: [] },
+          { date: off(9), start: '10:00 AM', end: '', text: 'Service project at the food bank.\nSign up: https://example.org/signup', links: [] }
+        ]},
+        { name: 'Elders Quorum', color: '#d9eaf7', items: [
+          { date: off(6), start: '8:00 AM', end: '11:00 AM', text: 'Help the Allen family move. Trucks and dollies welcome.', links: [] }
+        ]},
+        { name: 'Young Women', color: '#ead1dc', items: [
+          { date: off(3), start: '7:00 PM', end: '8:00 PM', text: 'Temple baptisms. Meet at the church at 6:30.', links: [] }
+        ]},
+        { name: 'Primary', color: '#bb07bc', items: [
+          { date: off(13), start: '', end: '', text: 'Primary program practice after church.', links: [] }
+        ]},
+        { name: 'Stake and Ward Activities', color: '#ffffff', items: [
+          { date: off(5), start: '6:00 PM', end: '8:00 PM', text: 'Ward chili cook-off and trunk-or-treat', links: [] },
+          { date: off(20), start: '9:00 AM', end: '', text: 'Tithing Declaration', links: [{ label: 'Tithing Declaration', url: 'https://example.org/tithing' }] }
+        ]}
+      ],
+      assignments: [
+        { date: off(sun), text: 'Opening prayer: Sister Morgan\nClosing prayer: Brother Diaz', links: [] },
+        { date: off(sun + 7), text: 'Speakers: the Nguyen family', links: [] },
+        { date: off(sun + 14), text: 'Building cleaning: Group 3', links: [] }
+      ]
+    };
+  }
+
+  // ── Light / dark toggle ────────────────────────────────────────────────
+  // Starts by following the phone's setting; once tapped, the choice is
+  // remembered on that device.
+  (function () {
+    const root = document.documentElement;
+    const btn = document.getElementById('themeBtn');
+    const media = window.matchMedia('(prefers-color-scheme: dark)');
+
+    const isDark = () => {
+      const t = root.getAttribute('data-theme');
+      return t ? t === 'dark' : media.matches;
+    };
+    const sync = () => {
+      root.classList.toggle('is-dark', isDark());
+      btn.setAttribute('aria-label', isDark() ? 'Switch to light theme' : 'Switch to dark theme');
+    };
+
+    btn.addEventListener('click', () => {
+      const next = isDark() ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('announcements-theme', next); } catch (e) {}
+      sync();
+    });
+    if (media.addEventListener) media.addEventListener('change', sync);
+    sync();
+  })();
+
+  if (window.ANNOUNCEMENTS_DATA) {
+    // Static copy published to GitHub Pages: data is baked into the file.
+    render(window.ANNOUNCEMENTS_DATA);
+  } else if (typeof google !== 'undefined' && google.script && google.script.run) {
+    google.script.run
+      .withSuccessHandler(json => { try { render(JSON.parse(json)); } catch (e) { showError(e); } })
+      .withFailureHandler(showError)
+      .getAnnouncementsData();
+  } else {
+    render(sampleData());
+  }
+</script>
+</body>
+</html>
